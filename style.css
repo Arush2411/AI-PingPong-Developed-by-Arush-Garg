@@ -1,0 +1,87 @@
+.heading
+{
+    width: 100%;
+    text-align: left;
+
+}
+body
+{
+    background-size: cover;
+}
+
+.heading h3
+{
+display: inline;
+text-align: left;
+margin: 30px;
+}
+
+.heading button
+{
+float: right;
+border: 5px solid whitesmoke;
+}
+
+
+#startgame , #status
+{
+    font-size: 22px;
+}
+
+
+
+h4
+{
+    background-color: lightblue;
+    color: darkcyan;
+    text-align: center;
+    font-size: 25px;
+}
+
+.modal-dialog
+{
+    width: 90%;
+}
+
+
+#restart
+{
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+h1{
+   font-size: 30px;
+   font-family: 'Courier New', Courier, monospace;
+   color: darkturquoise;
+   background-color: darkblue; 
+}
+
+canvas 
+  {
+      animation-name: border;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px lavenderblush;
+  }
+
+  @keyframes border {
+    from {
+      border: 10px ridge lavenderblush;
+    }
+  
+    to {
+        border: 3px dashed darkcyan;
+    }
+  }
+
+
+  h5
+{
+   background-color: lightcoral;
+   color:whitesmoke;
+   line-height: 2;
+}
+  
+  
